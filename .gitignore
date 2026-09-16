@@ -1,0 +1,10 @@
+# API keys and local overrides — never commit.
+config/local.yaml
+
+# Downloaded speech model (~40MB, fetched automatically).
+models/
+
+# Python noise.
+__pycache__/
+*.pyc
+.venv/
